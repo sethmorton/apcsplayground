@@ -35,9 +35,6 @@
 	};
 	// ************************ GET AMADEUS TOKEN ************************
 	const getToken = async (uri, tokenLength) => {
-		if (uri != typeof '') {
-			errorLog = `Token Validation Error`
-		}
 		let res = ``
 		// Length Token (MS)
 		if (tokenLength <= 10000) {
